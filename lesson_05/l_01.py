@@ -12,7 +12,7 @@ def profit_avg_calculate(list_):
     sum_profit = 0
     for name in list_:
         sum_profit += profit_sum_calculate(name)
-    sum_profit_avg = sum_profit / 4
+    sum_profit_avg = sum_profit / len(list_)
     return sum_profit_avg
 
 organization = namedtuple('organization', ['name', 'profit_01', 'profit_02', 'profit_03', 'profit_04'])
