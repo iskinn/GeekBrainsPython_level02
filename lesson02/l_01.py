@@ -31,3 +31,5 @@ while True:
             print(result)
     else:
         print()
+
+print(sys.getrefcount(b))
